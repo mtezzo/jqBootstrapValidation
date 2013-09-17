@@ -93,7 +93,7 @@
           // create message container if not exists
           if (!$helpBlock.length && settings.options.autoAdd && settings.options.autoAdd.helpBlocks) {
               $helpBlock = $('<div class="help-block" />');
-              $controlGroup.find('.controls').append($helpBlock);
+              $controlGroup.append($helpBlock);
 							createdElements.push($helpBlock[0]);
           }
 
